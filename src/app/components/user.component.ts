@@ -16,7 +16,14 @@ import { Component } from '@angular/core';
 	    		</li>
 	    	</ul>
 	    </div>
-    	
+	    <hr>
+    	<form>
+    		<label>Name: </label><br>
+    			<input type="text" name="name" [(ngModel)]="name"><br>
+    		<label> Email: </label><br>
+    			<input type="email" name="email" [(ngModel)]="email">
+
+    	</form>
     `
 })
 export class UserComponent  { 
